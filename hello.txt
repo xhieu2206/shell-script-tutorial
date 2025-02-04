@@ -1,0 +1,2 @@
+This sentence will be the first line because it's overwriting the file
+This sentence will be the second line in the file
