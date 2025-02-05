@@ -24,10 +24,6 @@ while IFS= read -r line; do
   done
 done < pre_c_ex3_exp.txt
 
-echo "Numbers found in the file: ${numbers1[@]}"
-echo "Numbers found in the file: ${numbers2[@]}"
-echo "Numbers found in the file: ${numbers3[@]}"
-
 echo "" > final_ex3_exp.txt
 echo "FAIL: $((numbers1[0] + numbers2[0] + numbers3[0]))" > final_ex3_exp.txt
 echo >> final_ex3_exp.txt 
